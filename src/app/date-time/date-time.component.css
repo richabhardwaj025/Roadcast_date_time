@@ -1,0 +1,27 @@
+.main{
+    font-size: 36px;
+}
+
+.dt{
+    /* width: 50vw; */
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-weight: 600;
+}
+
+@media(max-width:600px){
+    .dt{
+        max-width: 100%;
+        display: block;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
